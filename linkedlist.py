@@ -37,6 +37,7 @@ class LinkedList(object):
 
         prev = None
         node = self.head
+        index = self.size()
         i = 0
 
         while (node is not None) and (i < index):
@@ -114,7 +115,7 @@ class LinkedList(object):
 
             if i == index:
                 return node
-        
+
 
 
 if __name__ == "__main__":
